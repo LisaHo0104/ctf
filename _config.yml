@@ -1,0 +1,61 @@
+# ===============================
+# Site settings
+# ===============================
+title: Lisa's CTF Blog
+description: Public CTF write-ups, cybersecurity learning, and web exploitation notes
+author: Lisa Ho
+email: ""
+
+# ===============================
+# GitHub Pages settings
+# ===============================
+theme: jekyll-theme-hacker
+
+# ===============================
+# URL settings (GitHub Pages)
+# ===============================
+url: "https://lisaho0104.github.io"
+baseurl: ""
+
+# ===============================
+# Build settings
+# ===============================
+markdown: kramdown
+highlighter: rouge
+
+# ===============================
+# Plugins (GitHub Pages allowed)
+# ===============================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ===============================
+# Defaults for posts & pages
+# ===============================
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# ===============================
+# Exclude files from build
+# ===============================
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# ===============================
+# Social links (optional)
+# ===============================
+github_username: lisaho0104
+
+# ===============================
+# SEO settings
+# ===============================
+lang: en
+timezone: Australia/Melbourne
