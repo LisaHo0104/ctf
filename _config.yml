@@ -9,13 +9,13 @@ email: ""
 # ===============================
 # GitHub Pages settings
 # ===============================
-theme: jekyll-theme-midnight
+theme: jekyll-theme-hacker  # Changed from midnight to hacker
 
 # ===============================
 # URL settings (GitHub Pages)
 # ===============================
 url: "https://lisaho0104.github.io"
-baseurl: ""
+baseurl: "/ctf"  # Add your repo name if it's lisaho0104.github.io/ctf
 
 # ===============================
 # Build settings
