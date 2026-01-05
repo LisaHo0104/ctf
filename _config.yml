@@ -7,15 +7,15 @@ author: Lisa Ho
 email: ""
 
 # ===============================
-# GitHub Pages settings
+# Theme settings
 # ===============================
-theme: jekyll-theme-hacker  # Changed from midnight to hacker
+remote_theme: pages-themes/hacker@v0.2.0
 
 # ===============================
-# URL settings (GitHub Pages)
+# URL settings
 # ===============================
 url: "https://lisaho0104.github.io"
-baseurl: "/ctf"  # Add your repo name if it's lisaho0104.github.io/ctf
+baseurl: "/CTF"
 
 # ===============================
 # Build settings
@@ -24,14 +24,15 @@ markdown: kramdown
 highlighter: rouge
 
 # ===============================
-# Plugins (GitHub Pages allowed)
+# Plugins
 # ===============================
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # ===============================
-# Defaults for posts & pages
+# Defaults
 # ===============================
 defaults:
   - scope:
@@ -40,7 +41,7 @@ defaults:
       layout: default
 
 # ===============================
-# Exclude files from build
+# Exclude files
 # ===============================
 exclude:
   - README.md
@@ -50,7 +51,7 @@ exclude:
   - vendor
 
 # ===============================
-# Social links (optional)
+# Social links
 # ===============================
 github_username: lisaho0104
 
