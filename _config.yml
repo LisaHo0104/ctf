@@ -2,7 +2,7 @@ title: Lisa's CTF Blog
 description: Public CTF write-ups, cybersecurity learning, and web exploitation notes
 author: Lisa Ho
 
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 
 url: "https://lisaho0104.github.io"
 baseurl: "/CTF"
@@ -10,6 +10,7 @@ baseurl: "/CTF"
 markdown: kramdown
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
